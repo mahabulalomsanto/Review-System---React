@@ -1,0 +1,137 @@
+.App {
+	background-color: #011a47;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	padding-top: 0px;
+}
+
+.main-section {
+	width: 53%;
+	height: auto;
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+	margin: 40px auto;
+	padding: 50px 20px 10px 20px;
+	border-radius: 10px;
+}
+
+.logo-row {
+	justify-content: center;
+}
+
+.company-logo {
+	width: 120px;
+	height: 90px;
+}
+.experience-text-div {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0px 0px 0px;
+}
+
+.experience-text-div-row > p {
+	color: gray;
+	font-size: 14px;
+}
+
+.experience-text {
+	width: 50%;
+	text-align: center;
+	line-height: 30px;
+	font-size: 1.125rem;
+	font-weight: 600;
+}
+.emoji-with-text > h5 {
+	font-size: 0.875rem;
+	font-weight: 700;
+}
+.emoji-section {
+	display: flex;
+	justify-content: center;
+}
+
+.emoji-with-text {
+	margin: 22px 10px 15px 10px;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+}
+.single-emoji-div {
+	height: 130px;
+	width: 130px;
+	background-color: #f3f4f8;
+	align-items: center;
+	padding-top: 25px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.single-emoji-div:hover {
+	background-color: #b9e0fea3;
+	border: 2px solid #007bff;
+}
+
+.emoji-image {
+	width: 77px;
+}
+
+.user-ex-btn {
+	margin: 5px 7px;
+	font-size: 15px;
+	padding: 10px 10px;
+}
+
+.experience-btn-row {
+	text-align: center;
+	margin-top: 20px;
+}
+.experience-btn-row hr {
+	width: 85%;
+	margin: 0px auto 40px auto;
+}
+
+.experience-btn-section {
+	justify-content: center;
+	text-align: center;
+}
+
+.user-ex-btn-last {
+	width: 87%;
+	margin: 5px;
+}
+
+.experience-btn-section .clicked {
+	background-color: blue;
+	color: white;
+}
+
+.like-img {
+	width: 20px;
+}
+
+.reviewTextBox {
+	width: 100%;
+	height: 100px;
+	border-radius: 10px;
+	text-wrap: wrap;
+}
+
+textarea {
+	resize: none;
+	font-size: 13px;
+}
+
+.final-submit-btn {
+	width: 100%;
+	font-size: 14px;
+}
+
+h6.bottom {
+	font-size: 13px;
+}

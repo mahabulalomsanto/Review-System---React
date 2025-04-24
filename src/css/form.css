@@ -1,0 +1,72 @@
+.Form {
+	background-color: #002667;
+	padding: 50px;
+	height: 100vh;
+}
+
+.form-main-section {
+	width: 58%;
+	height: auto;
+	background-color: white;
+	margin: 0 auto;
+	padding: 50px 40px;
+	border-radius: 10px;
+}
+
+.bad-review-emoji-div {
+	height: 120px;
+	width: 120px;
+	background-color: #f3f4f8;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	background-color: #b9e0fea3;
+	border: 2px solid #007bff;
+}
+
+.bad-review-emoji {
+	height: 70px;
+	width: 70px;
+}
+
+.emoji-with-right-section p {
+	font-size: 14px;
+	color: grey;
+}
+
+.share-feedback-text {
+	margin-bottom: 12px;
+	font-size: 16px;
+	color: #011a47;
+	font-weight: 400;
+}
+
+.bad-review-textarea {
+	height: 100px;
+	width: 100%;
+	border-radius: 10px;
+	justify-self: center;
+}
+
+.send-btn {
+	background-color: #268bf6;
+	border: 1px solid #268bf6;
+	border-radius: 10px;
+	padding: 8px 40px;
+	color: white;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.borderless-btn {
+	border: none;
+	background-color: transparent;
+	font-size: 14px;
+	color: grey;
+}
+
+button {
+	border-radius: 15px;
+}
