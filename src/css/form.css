@@ -1,7 +1,10 @@
 .Form {
 	background-color: #002667;
 	padding: 50px;
-	height: 100vh;
+
+	min-width: 900px;
+	min-height: 100vh;
+	height: auto;
 }
 
 .form-main-section {

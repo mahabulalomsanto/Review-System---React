@@ -55,15 +55,15 @@ const form = ({ onBack, emoji }) => {
 					<hr />
 					<br />
 					<div className="row submit-form-back-btn">
-						<div className="col-md-3">
+						<div className="col-3">
 							<button className="borderless-btn" onClick={onBack}>
 								Back
 							</button>
 						</div>
-						<div className="col-md-6  d-flex justify-content-center">
+						<div className="col-6 d-flex justify-content-center">
 							<button className="send-btn">Send</button>
 						</div>
-						<div className="col-md-3 d-flex justify-content-end">
+						<div className="col-3 d-flex justify-content-end">
 							<button className="borderless-btn">Go to Google</button>
 						</div>
 					</div>
